@@ -281,7 +281,7 @@ declare namespace React {
         defaultPrevented: boolean;
         eventPhase: number;
         isTrusted: boolean;
-        nativeEvent: Event;
+        nativeEvent: T;
         preventDefault(): void;
         isDefaultPrevented(): boolean;
         stopPropagation(): void;
